@@ -13,8 +13,8 @@ public class TranslatorService
 	
 	public String translate(String input)
 	{
-		langTranslator.setUsernameAndPassword("9f66349c-f8b3-42f9-8541-8e0e94126fdc", "HPVvgDNT4Aad");
-		TranslationResult TR =  langTranslator.translate(input, Language.ENGLISH,Language.POLISH).execute();
+		langTranslator.setUsernameAndPassword("dd1087b0-6eee-4e0a-860a-7275ce23d7ed", "ZrkYWKADneDm");
+		TranslationResult TR =  langTranslator.translate(input, Language.ENGLISH,Language.SPANISH).execute();
 		return TR.getFirstTranslation();
 	}
 

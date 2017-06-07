@@ -33,7 +33,12 @@
 			<groupId>com.ibm.watson.developer_cloud</groupId>
 			<artifactId>language-translator</artifactId>
 			<version>3.8.0</version>
-		</dependency>		
+		</dependency>	
+		<dependency>
+			<groupId>com.ibm.watson.developer_cloud</groupId>
+			<artifactId>java-sdk</artifactId>
+			<version>3.8.0</version>
+		</dependency>	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
