@@ -1,0 +1,1 @@
+INSERT INTO compose.Notatka values (1,'test','notatka testowa','notatka tresc');
